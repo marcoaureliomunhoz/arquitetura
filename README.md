@@ -21,7 +21,6 @@ GET /Livros/{id}/capa       //expondo um subrecurso
 - Stateless: a request deve ter tudo o que é necessário para o server entender e retornar a response. A sessão do usuário não pode ser armazenada no server, ela deve ser enviada em todas as requisições. Podemos fazer isso por meio de tokens.
 - Cacheable: o server deve retornar se a resposta pode ou não ser cacheada no cliente.
 - Layered System: o cliente não precisa saber quantas camadas foram necessárias para resolver a requisição.
-- 
 
 **DotNet:**
 
